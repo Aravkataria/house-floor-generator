@@ -41,7 +41,7 @@ Clone the repository and install required dependencies:
      - Number of rooms
 
 6. **View results**
-   - The generated final floor plan will be saved in a folder with a timestamped filename.
+   - The generated final floor plan will be saved in a folder with a timestamped filename with 256×256 pixels.
 
 ## Sample Outputs
-A few sample generated floor plans are included in the `samples/` folder.
+A few sample generated floor plans are included in the `samples/` folder for demonstration purposes.
