@@ -8,3 +8,30 @@ For research and educational purposes only. Unauthorized copying, modification, 
 - Conditional GAN for 256×256 floor plan generation
 - Denoising GAN for final cleanup
 - Takes input parameters like total area and number of rooms
+
+## Installation
+Clone the repository and install required dependencies:
+1. **Prepare the environment**
+   - Install Python 3.9 or later.
+   - Install dependencies:
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+2. **Download datasets**
+   - Download [CubiCasa5K](https://www.kaggle.com/code/qmarva/cubicasa5k-swin-transformer-mmdetection) and [Housing Dataset](https://www.kaggle.com/datasets/ashydv/housing-dataset) manually.
+   - Place them in a `datasets/` folder inside the project directory.
+
+3. **Run the pipeline**
+   - Open a terminal in the project folder and execute:
+     ```bash
+     python main.py
+     ```
+
+4. **Input parameters**
+   - When prompted, enter:
+     - Total area (in sq ft or sq m)
+     - Number of rooms
+
+5. **View results**
+   - The generated final floor plan will be saved in the `final_generated_images/` folder with a timestamped filename.
