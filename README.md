@@ -11,6 +11,7 @@ For research and educational purposes only. Unauthorized copying, modification, 
 
 ## Installation
 Clone the repository and install required dependencies:
+
 1. **Prepare the environment**
    - Install Python 3.9 or later.
    - Install dependencies:
@@ -28,10 +29,16 @@ Clone the repository and install required dependencies:
      python main.py
      ```
 
-4. **Input parameters**
+4. **For deployment (Web App)**
+   - To launch the Streamlit-based web interface, run:
+     ```bash
+     python main_webapp.py
+     ```
+
+5. **Input parameters**
    - When prompted, enter:
      - Total area (in sq ft or sq m)
      - Number of rooms
 
-5. **View results**
-   - The generated final floor plan will be saved in the `final_generated_images/` folder with a timestamped filename.
+6. **View results**
+   - The generated final floor plan will be saved in a folder with a timestamped filename.
