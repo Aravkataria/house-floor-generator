@@ -42,3 +42,6 @@ Clone the repository and install required dependencies:
 
 6. **View results**
    - The generated final floor plan will be saved in a folder with a timestamped filename.
+
+## Sample Outputs
+A few sample generated floor plans are included in the `samples/` folder.
