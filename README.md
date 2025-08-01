@@ -1,7 +1,7 @@
 # house-floor-generator
 
 This project is a multi-stage GAN pipeline that generates high-resolution 2D house floor plans from user-defined parameters.  
-For research and educational purposes only. Unauthorized copying, modification, or distribution is strictly prohibited.
+For research and educational purposes only. Use is restricted; see the License section below.
 
 ## Features
 - Room type prediction using a Random Forest Classifier trained on a housing dataset
@@ -21,7 +21,7 @@ Clone the repository and install required dependencies:
      ```
 
 2. **Download datasets**
-   - Download [CubiCasa5K](https://www.kaggle.com/code/qmarva/cubicasa5k-swin-transformer-mmdetection) and [Housing Dataset](https://www.kaggle.com/datasets/ashydv/housing-dataset) manually.
+   - Download [CubiCasa5K](https://www.kaggle.com/datasets/qmarva/cubicasa5k) and [Housing Dataset](https://www.kaggle.com/datasets/ashydv/housing-dataset) manually.  
    - Place them in a `datasets/` folder inside the project directory.
 
 3. **Preprocess dataset**
@@ -60,3 +60,13 @@ Clone the repository and install required dependencies:
 
 ## Sample Outputs
 Sample generated floor plans are included in the `samples/` folder for demonstration.
+
+## License
+No license.  
+This repository is provided **for viewing and educational purposes only**.  
+You may **not** use, copy, modify, or redistribute this project without explicit permission from the author.
+
+## Dataset Attribution
+This project uses the [CubiCasa5K dataset](https://www.kaggle.com/datasets/qmarva/cubicasa5k),  
+© CubiCasa, licensed under [CC BY-NC-SA 3.0 IGO](https://creativecommons.org/licenses/by-nc-sa/3.0/igo/).  
+Dataset usage is subject to its original license terms.
