@@ -20,8 +20,7 @@ Clone the repository and install required dependencies:
      pip install -r requirements.txt
      ```
 
-2. **Download datasets**
-   - Download [CubiCasa5K](https://www.kaggle.com/datasets/qmarva/cubicasa5k) and [Housing Dataset](https://www.kaggle.com/datasets/ashydv/housing-dataset) manually.  
+2. **Download datasets**  
    - Place them in a `datasets/` folder inside the project directory.
 
 3. **Preprocess dataset**
@@ -60,13 +59,3 @@ Clone the repository and install required dependencies:
 
 ## Sample Outputs
 Sample generated floor plans are included in the `samples/` folder for demonstration.
-
-## License
-No license.  
-This repository is provided **for viewing and educational purposes only**.  
-You may **not** use, copy, modify, or redistribute this project without explicit permission from the author.
-
-## Dataset Attribution
-This project uses the [CubiCasa5K dataset](https://www.kaggle.com/datasets/qmarva/cubicasa5k),  
-© CubiCasa, licensed under [CC BY-NC-SA 3.0 IGO](https://creativecommons.org/licenses/by-nc-sa/3.0/igo/).  
-Dataset usage is subject to its original license terms.
