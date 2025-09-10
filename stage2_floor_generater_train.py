@@ -10,7 +10,7 @@ from tqdm import tqdm
 import random
 
 # Paths
-clean_image_dir = 'C:/Users/ARAV/Documents/cubicasa5k/processed'
+clean_image_dir = 'processed'
 checkpoint_dir = 'stage3_checkpoints'
 generated_dir = 'stage3_generated_images'
 
