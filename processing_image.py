@@ -1,7 +1,7 @@
 import os
 import cv2
 
-root_folder = "CubiCasa5K"
+root_folder = "folder"
 output_folder = os.path.join(root_folder, "processed")
 os.makedirs(output_folder, exist_ok=True)
 
