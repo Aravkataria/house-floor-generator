@@ -1,3 +1,5 @@
+# Arch-Ai-Tex
+
 # house-floor-generator
 
 This project is a multi-stage GAN pipeline that generates high-resolution 2D house floor plans from user-defined parameters.  
